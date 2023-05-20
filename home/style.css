@@ -5,17 +5,20 @@ body {
 }
 header {
   background-color: #D4C2B2;
-  padding: 20px 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #be2623;
+    bottom: 50;
+    border-radius: 0.5rem;
 }
 li {
-    float: left;
+    float:left
 }
 li a {
     display: block;
@@ -25,8 +28,31 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    background-color: #0e3746;
 }
 h3#text-nav {
   text-align: center;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.tittle {
+font-size: 1.7rem;
+text-align: center;
+padding-top: 0.5rem;
+}
+.card {
+  background-color: #D4C2B2;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+video {
+  align-content: center
+}
+.card-img-top {
+  width: 20rem;
+  height: 13rem;
 }

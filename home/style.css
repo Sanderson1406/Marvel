@@ -48,11 +48,30 @@ padding-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
+  display: flexbox;
 }
 video {
   align-content: center
 }
 .card-img-top {
-  width: 20rem;
+  width: 100%;
   height: 13rem;
+  border-radius: 1rem;
+}
+.card-info {
+  width: 20rem;
+  background-color: #0e3746;
+  border-radius: 1rem;
+}
+.text-info-card {
+  color: white;
+  padding: 0.5rem;
+}
+.sub-tittle {
+  font-size: 2rem;
+text-align: center;
+color: white;
+}
+iframe{
+  border-radius: 1rem;
 }
